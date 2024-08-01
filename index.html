@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="menu">
+      <ul>
+        <li><a href="#section01">Section 01</a></li>
+        <li><a href="#section02">Section 02</a></li>
+        <li><a href="#section03">Section 03</a></li>
+        <li><a href="#section04">Section 04</a></li>
+      </ul>
+    </header>
+    <main>
+      <section id="section01">
+        <div class="section01-left-div">
+          <img 
+          src="../assects/Images/download.jpg" 
+          alt="Images Teste"
+          class="img-style-section01"
+          width="300px"
+          height="auto"
+          />
+        </div>
+        <div class="section01-right-div">
+        <h2 class="l01">Nome do cidadão</h2>
+        <p class="p01">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ducimus iure consequuntur dolores, neque optio ex voluptatum ut quidem, laudantium laboriosam quod consectetur enim, commodi nam perferendis. Nisi, corporis amet?
+        </p>
+      </div>
+      </section>
+      <section id="section02">
+        <h2>parte 02</h2>
+      </section>
+      <section id="section03">
+        <h2>parte 03</h2>
+      </section>
+      <section id="section04">
+        <h2 class="heading-contact">Contato</h2>
+        <div class="left-contact">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+        </div>
+        <div class="right-contact">
+            <label for="Mensagem">Mensagem</label>
+            <input type="text"id="mensagem">
+        </div>
+        <button onclick="conferirMensagemWhatsApp()">
+        Conferir Mensagem
+        </button>
+        <div>
+        </div class="right-contact">
+        <div>
+          <p>Nome: <span id="confNome"></span></p>
+            <p>Mensagem<span id="confmsg"></span></p>
+        </div>
+        <button onclick="enviar()">🤨</button>
+        <div>
+      </section>
+    </main>
+  </body>
+</html>
